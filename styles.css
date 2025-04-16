@@ -1,0 +1,121 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    background-color: #fefefe;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: #ffecd1;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-buttons .btn {
+    display: inline-block;
+    background: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 25px;
+    transition: background 0.3s;
+  }
+  
+  .cta-buttons .btn.outline {
+    background: transparent;
+    color: #ff6b6b;
+    border: 2px solid #ff6b6b;
+  }
+  
+  .cta-buttons .btn:hover {
+    background: #ff4c4c;
+    color: white;
+  }
+  
+  /* Form Section */
+  .form-section {
+    background: #fff8f0;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .form-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  form input, form select {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    margin: 10px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  form button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Stories */
+  .stories {
+    padding: 40px 20px;
+    background: #e8f5e9;
+    text-align: center;
+  }
+  
+  .story {
+    margin: 20px 0;
+  }
+  
+  .story img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+  }
+  
+  /* Carousel Placeholder */
+  .carousel {
+    background: #f0f0f0;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #eee;
+    font-size: 0.9rem;
+  }
+  
