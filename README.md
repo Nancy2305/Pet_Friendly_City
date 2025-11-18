@@ -29,3 +29,5 @@ Responsive Web Design
 
 Outcome:
 A functional and aesthetic webpage ready to be expanded with advanced features like AI chatbots or pet adoption tools. It provides a great base for presenting the concept of a more inclusive city for both people and pets.
+
+Deployed link: https://pet-friendly-city-livid.vercel.app/
